@@ -1,5 +1,6 @@
 import React from "react";
-import { House, EnvelopeOpen, Fish, Cake, Broom, Dog } from "phosphor-react";
+import { House, EnvelopeOpen, Fish, Cake, Dog, Jeep } from "phosphor-react";
+import "../App.css";
 
 export const SidebarData = [
   {
@@ -13,7 +14,7 @@ export const SidebarData = [
     link: "/mail",
   },
   {
-    title: "Pescetarian",
+    title: "Dinner",
     icon: <Fish size={32} />,
     link: "/fish",
   },
@@ -28,8 +29,8 @@ export const SidebarData = [
     link: "/dog",
   },
   {
-    title: "Cleanup",
-    icon: <Broom size={32} />,
-    link: "/broom",
+    title: "Cars",
+    icon: <Jeep size={32} />,
+    link: "/jeep",
   },
 ];
